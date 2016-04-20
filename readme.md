@@ -16,6 +16,7 @@ php artisan route:list
 
 ### Output
 
+```
 | GET|HEAD | /                     |
 |----------|-----------------------|
 | POST     | api/v1/customers      |
@@ -24,7 +25,7 @@ php artisan route:list
 | PATCH    | api/v1/customers/{id} |
 | GET|HEAD | api/v1/customers/{id} |
 | PUT      | api/v1/customers/{id} |
-
+```
 
 ## Supported actions:
 
